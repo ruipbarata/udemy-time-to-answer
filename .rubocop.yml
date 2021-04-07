@@ -1,0 +1,98 @@
+AllCops:
+ TargetRubyVersion: 2.6.6
+ Exclude:
+ - 'vendor/**/*'
+ - 'tmp/**/*'
+ - 'bin/**/*'
+ - 'db/schema.rb'
+ - 'node_modules/**/*'
+Style/Documentation:
+ Enabled: false
+Layout/IndentationConsistency:
+ EnforcedStyle: indented_internal_methods
+Layout/ParameterAlignment:
+ Enabled: false
+Style/StringLiterals:
+ EnforcedStyle: double_quotes
+Layout/LineLength:
+ Max: 120
+ Exclude:
+ - 'db/seeds/**/*'
+ - 'app/views/**/*.jbuilder'
+Metrics/MethodLength:
+ Max: 50
+Metrics/ClassLength:
+ Enabled: false
+Metrics/CyclomaticComplexity:
+ Max: 10
+Metrics/PerceivedComplexity:
+ Max: 10
+Style/FrozenStringLiteralComment:
+ Enabled: false
+Style/ClassAndModuleChildren:
+ Enabled: false
+Style/ColonMethodCall:
+ Enabled: false
+Metrics/BlockLength:
+ Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+ Enabled: false
+Naming/VariableNumber:
+ EnforcedStyle: snake_case
+Metrics/AbcSize:
+ Enabled: false
+Layout/MultilineMethodCallIndentation:
+ EnforcedStyle: indented
+Style/SymbolProc:
+ Enabled: false
+Style/RedundantReturn:
+ Enabled: false
+Style/GuardClause:
+ Enabled: false
+Style/MethodCallWithoutArgsParentheses:
+ Enabled: false
+Layout/FirstParameterIndentation:
+ Enabled: false
+Style/SymbolArray:
+ Enabled: false
+Layout/TrailingEmptyLines:
+ Enabled: false
+ 
+Style/ModuleFunction:
+ Enabled: false
+Layout/EmptyLinesAroundModuleBody:
+ EnforcedStyle: empty_lines
+Layout/EmptyLinesAroundClassBody:
+ EnforcedStyle: empty_lines
+Metrics/ModuleLength:
+ Max: 200
+Style/IfUnlessModifier:
+ Enabled: false
+Layout/EmptyLinesAroundAttributeAccessor:
+ Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+ Enabled: true
+Lint/DeprecatedOpenSSLConstant:
+ Enabled: true
+Lint/MixedRegexpCaptureTypes:
+ Enabled: true
+Lint/RaiseException:
+ Enabled: true
+Lint/StructNewOverride:
+ Enabled: true
+Style/ExponentialNotation:
+ Enabled: true
+Style/HashEachMethods:
+ Enabled: true
+Style/HashTransformKeys:
+ Enabled: true
+Style/HashTransformValues:
+ Enabled: true
+Style/RedundantRegexpCharacterClass:
+ Enabled: true
+Style/RedundantRegexpEscape:
+ Enabled: true
+Style/SlicingWithRange:
+ Enabled: true
+Style/RedundantFetchBlock:
+ Enabled: true

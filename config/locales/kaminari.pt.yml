@@ -1,0 +1,17 @@
+pt:
+  views:
+    pagination:
+      first: "&laquo; Início"
+      last: "Fim &raquo;"
+      previous: "&lsaquo; Anterior"
+      next: "Próximo &rsaquo;"
+      truncate: "&hellip;"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "A apresentar %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> de <b>%{total}</b> no total"
+          other: "A apresentar %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> de <b>%{total}</b> no total"
+      more_pages:
+        display_entries: "A apresentar %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> de <b>%{total}</b> no total"

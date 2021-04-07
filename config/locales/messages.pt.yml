@@ -1,0 +1,6 @@
+pt:
+  messages:
+    listing: Lista %{model}
+    confirm_with: Deseja realmente apagar [%{item}]
+    editing: A editar %{model}
+    new: Novo %{model}
